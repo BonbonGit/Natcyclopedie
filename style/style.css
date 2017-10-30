@@ -1,0 +1,77 @@
+*{
+	font-family:"Times New Roman";
+}
+
+body{
+	margin-top: 20px;
+	background-image: url("../image/encyclopedie.jpg");
+	background-repeat:no-repeat;
+    background-size:100%;
+}
+
+section.index{
+	background-color:transparent;
+	color:white;
+}
+section{
+	margin-left:auto;
+	margin-right:auto;
+	width:750px;
+	padding:25px;
+	background-color:white;
+	border-radius:25px;
+	color:black;
+}
+article{
+	text-align:center;
+}
+header.titre{
+	margin:5px;
+	text-align:center;
+}
+nav{
+	text-align:left;
+	font-size:0.5em;
+}
+
+h1{
+	font-size:3em;
+}
+
+p{
+	font-size:1.5em;
+	text-align:center;
+	
+}
+button.cv{
+	background-color:#FFEBCD;
+	color:black;
+	border:2px solid #1E90FF;
+	border-radius:12px;
+	padding:20px;
+	margin:10px;
+	width:270px;
+	height:250px;
+	font-size:50px;	
+	transition-duration: 0.4s;
+}
+button.cv:hover{
+	background-color:#1E90FF;
+	color:white;
+}
+
+button.lettre{
+	background-color:#FFEBCD;
+	color:black;
+	border:2px solid #00FF00;
+	padding:20px;
+	width:270px;
+	height:250px;
+	font-size:50px;
+	border-radius:12px;
+	transition-duration: 0.4s;
+}
+button.lettre:hover{
+	background-color:#00FF00;
+	color:white;
+}
