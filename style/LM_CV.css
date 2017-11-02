@@ -16,7 +16,7 @@ iframe{
   float: right;
   display: inline-block;
   width:450px;
-  height:700px;
+  height:600px;
 }
 footer{
   clear:right;
@@ -33,7 +33,6 @@ a.article{
   border-bottom:3px solid green;
   text-align: center;
   background-color: lightGreen;
-  width:100%;
   padding:18px 0px;
   display: block;
 }
