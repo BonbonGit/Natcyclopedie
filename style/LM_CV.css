@@ -2,31 +2,37 @@ header{
   background-image: url("../image/encyclopedie.jpg");
   color: white;
   text-align: center;
-  border-radius: 45px;
+  border-radius: 30px;
   padding: 10px;
 }
 aside{
   width:250px;
   display: inline-block;
+  border-top:3px solid green;
+  border-right:3px solid green;
+  border-left:3px solid green;
 }
 iframe{
   float: right;
   display: inline-block;
   width:450px;
-  height:700px;
+  height:600px;
 }
 footer{
   clear:right;
 }
 ul{
   list-style: none;
-
+  margin: 0px;
+  padding: 0px;
 }
 li{
   display: block;
+}
+a.article{
+  border-bottom:3px solid green;
   text-align: center;
-  border:3px solid green;
   background-color: lightGreen;
-  padding:18px 30px;
-
+  padding:18px 0px;
+  display: block;
 }

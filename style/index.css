@@ -6,3 +6,40 @@ header.titre{
 	margin:5px;
 	text-align:center;
 }
+article{
+	text-align:center;
+}
+span{
+	display: inline-block;
+	vertical-align: middle;
+}
+a{
+	background-color:#FFEBCD;
+	color:black;
+	border-radius:12px;
+	padding:90px 20px;
+	margin:10px;
+	width:270px;
+	height:110px;
+	font-size:50px;
+	transition-duration: 0.4s;
+	display: block;
+	text-decoration: none;
+}
+a.cv{
+	border:2px solid #1E90FF;
+	line-height:100px;
+}
+a.cv:hover{
+	background-color:#1E90FF;
+	color:white;
+}
+
+a.lettre{
+	border:2px solid #00FF00;
+	line-height:110%;
+}
+a.lettre:hover{
+	background-color:#00FF00;
+	color:white;
+}
