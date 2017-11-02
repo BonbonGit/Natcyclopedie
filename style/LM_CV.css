@@ -8,6 +8,10 @@ header{
 aside{
   width:250px;
   display: inline-block;
+  border-top:3px solid green;
+  border-right:3px solid green;
+  border-left:3px solid green;
+  padding:0px;
 }
 iframe{
   float: right;
@@ -20,13 +24,16 @@ footer{
 }
 ul{
   list-style: none;
-
+  padding:0px;
 }
 li{
   display: block;
+}
+a.article{
+  border-bottom:3px solid green;
   text-align: center;
-  border:3px solid green;
   background-color: lightGreen;
-  padding:18px 30px;
-
+  width:100%;
+  padding:18px 0px;
+  display: block;
 }
