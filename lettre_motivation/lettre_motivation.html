@@ -1,26 +1,67 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-	<head>	
-	
+	<head>
+
 		<meta charset="utf-8">
 		<title>Natcyclopédie</title>
-		<link rel=stylesheet href="../style/style.css" />
-		
+		<link rel=stylesheet href="../style/main.css" />
+		<link rel=stylesheet href="../style/LM_CV.css" />
+
+		<script>
+			var artList = document.getElementsByClassName('article');
+			function initialiserLiens(){
+				for(let i = 0;i < artList.length; i++){
+					artList[i].addEventListener('click', function(){
+					 	colorerArticleActif(this.id);
+					});
+				}
+				console.log('done');
+			}
+
+			function colorerArticleActif(articleID){
+				for(let i = 0;i < artList.length; i++){
+					if(artList[i].id == articleID){
+						artList[i].style.backgroundColor = "green";
+					} else{
+						artList[i].style.backgroundColor = "lightGreen";
+					}
+				}
+			}
+		</script>
 	</head>
-	
-	<body>
+
+	<body onload="initialiserLiens()">
 		<section>
+			<header>
+				<h1>Natcyclopédie<h1/>
+			</header>
+
+			<nav>
+				<p>
+					<a href="../index.html">Revenir à la page d'acceuil</a>
+				</p>
+			</nav>
+
 			<aside>
-				
+				<ul>
+					<li><a href="article_A.html" target="affiche" class="article" id="art_a"> Article A</a></li>
+					<li><a href="article_B.html" target="affiche" class="article" id="art_b"> Article B</a></li>
+					<li><a href="article_C.html" target="affiche" class="article" id="art_c"> Article C</a></li>
+					<li><a href="article_D.html" target="affiche" class="article" id="art_d"> Article D</a></li>
+					<li><a href="article_E.html" target="affiche" class="article" id="art_e"> Article E</a></li>
+
+				</ul>
 			</aside>
-			
-			<article>
-				
-			</article>
-			
+
+			<iframe name="affiche" id="iframe" src="">
+
+			</iframe>
+			<!-- Assure d'afficher la section correctment-->
+			<footer></footer>
+
 		</section>
-	
+
 	</body>
-	
+
 </html>
