@@ -1,0 +1,32 @@
+header{
+  background-image: url("../image/encyclopedie.jpg");
+  color: white;
+  text-align: center;
+  border-radius: 45px;
+  padding: 10px;
+}
+aside{
+  width:250px;
+  display: inline-block;
+}
+iframe{
+  float: right;
+  display: inline-block;
+  width:450px;
+  height:700px;
+}
+footer{
+  clear:right;
+}
+ul{
+  list-style: none;
+
+}
+li{
+  display: block;
+  text-align: center;
+  border:3px solid green;
+  background-color: lightGreen;
+  padding:18px 30px;
+
+}
