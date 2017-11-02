@@ -2,7 +2,7 @@ header{
   background-image: url("../image/encyclopedie.jpg");
   color: white;
   text-align: center;
-  border-radius: 45px;
+  border-radius: 30px;
   padding: 10px;
 }
 aside{
@@ -11,7 +11,6 @@ aside{
   border-top:3px solid green;
   border-right:3px solid green;
   border-left:3px solid green;
-  padding:0px;
 }
 iframe{
   float: right;
@@ -24,7 +23,8 @@ footer{
 }
 ul{
   list-style: none;
-  padding:0px;
+  margin: 0px;
+  padding: 0px;
 }
 li{
   display: block;
