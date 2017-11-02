@@ -6,6 +6,9 @@ header.titre{
 	margin:5px;
 	text-align:center;
 }
+article{
+	text-align:center;
+}
 span{
 	display: inline-block;
 	vertical-align: middle;
